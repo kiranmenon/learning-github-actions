@@ -1,0 +1,13 @@
+---
+name: "My helloworld action"
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Just an echo
+        run: echo Hello Kiran !
+  
